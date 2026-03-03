@@ -12,7 +12,7 @@ namespace TsRandomizer
 
 
 				var platformHelper = DummyPlatformHelper.CreateInstance();
-
+				ShopCapHarmonyPatch.Apply();
 				new TimeSpinnerGame(platformHelper).Run();
 			});
 
